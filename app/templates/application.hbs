@@ -1,3 +1,12 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<section id="todoContainer" class="text-center col-md-6 col-md-offset-3">
+	<div class="addNew">
+		<h2 id="title">To-Do List</h2>
+		<div class="form-control pad0">
+			<input type="text" class="col-md-10 br4 h34"/>
+  			<button type="button" class="col-md-2 btn btn-default">Add</button>
+		</div>
+	</div>
+	<div class="listContainer text-center">
+		{{outlet}}
+	</div>
+</section>
